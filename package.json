@@ -1,0 +1,45 @@
+{
+  "name": "exif-file-reader-js",
+  "version": "1.0.0",
+  "description": "The wrapper for exif-js that provides an easy API for working with a JavaScript File object directly and with the support of formatting values of EXIF.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawphotoforfree-com/exif-file-reader-js.git"
+  },
+  "keywords": [
+    "exif",
+    "exif-reader",
+    "exif-metadata",
+    "exif-data-extraction",
+    "exif-interface",
+    "exif-data",
+    "exiftool"
+  ],
+  "author": "Jakub Frajt <mail@jakubfrajt.cz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rawphotoforfree-com/exif-file-reader-js/issues"
+  },
+  "homepage": "https://github.com/rawphotoforfree-com/exif-file-reader-js#readme",
+  "dependencies": {
+    "exif-js": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "rollup": "^1.17.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
